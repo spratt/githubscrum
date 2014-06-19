@@ -24,9 +24,20 @@
 
     <!-- Add your site or application content here -->
     <header>
-      <h1>
-        <a href="http://spratt.github.io/Github-Scrum/">Github Scrum</a>
-      </h1>
+      <div class="left">
+        <h1>
+          <a href="http://spratt.github.io/Github-Scrum/">Github Scrum</a>
+        </h1>
+      </div>
+      <div class="right">
+        <p id="login">
+          <label for="auth-id">Client ID:</label>
+          <input type="text" id="auth-id" />
+          <label for="secret">Secret:</label>
+          <input type="text" id="auth-secret" />
+          <input type="button" id="auth-button" value="Auth" />
+        </p>
+      </div>
     </header>
     
     <article>
