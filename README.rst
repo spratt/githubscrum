@@ -2,61 +2,22 @@
 Github Scrum
 ===============================
 
+.. image:: https://badge.fury.io/py/githubscrum.png
+    :target: http://badge.fury.io/py/githubscrum
+    
+.. image:: https://travis-ci.org/spratt/githubscrum.png?branch=master
+        :target: https://travis-ci.org/spratt/githubscrum
+
+.. image:: https://pypip.in/d/githubscrum/badge.png
+        :target: https://pypi.python.org/pypi/githubscrum
+
+
 A scrum board which uses github issues as the back-end.
 
+* Free software: BSD license
+* Documentation: http://githubscrum.readthedocs.org.
 
-Quickstart
-----------
+Features
+--------
 
-::
-
-    git clone https://github.com/spratt/githubscrum
-    cd githubscrum
-    pip install -r requirements/dev.txt
-    python manage.py db init
-    python manage.py db migrate
-    python manage.py db upgrade
-    python manage.py server
-
-
-
-Deployment
-----------
-
-In your production environment, make sure the ``GITHUBSCRUM_ENV`` environment variable is set to ``"prod"``.
-
-
-Shell
------
-
-To open the interactive shell, run ::
-
-    python manage.py shell
-
-By default, you will have access to ``app``, ``db``, and the ``User`` model.
-
-
-Running Tests
--------------
-
-To run all tests, run ::
-
-    python manage.py test
-
-
-Migrations
-----------
-
-Whenever a database migration needs to be made. Run the following commmands:
-::
-
-    python manage.py db migrate
-
-This will generate a new migration script. Then run:
-::
-
-    python manage.py db upgrade
-
-To apply the migration.
-
-For a full migration command reference, run ``python manage.py db --help``.
+* TODO
