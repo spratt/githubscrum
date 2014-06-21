@@ -14,7 +14,7 @@ Github Scrum
 
 A scrum board which uses github issues as the back-end.
 
-* Free software: BSD license
+* Free software: MIT license
 * Documentation: http://githubscrum.readthedocs.org.
 
 Features
